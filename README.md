@@ -275,6 +275,24 @@ You should see a message saying "Hi username! You've successfully authenticated.
 
 Now you can use SSH to interact with your GitHub repositories. When cloning new repos, use the SSH URL (git@github.com:username/repository.git) instead of HTTPS.
 
+### Useful VSCode Extensions
+
+Here the terminal commands to install the extensions individually:
+
+```bash
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension EditorConfig.EditorConfig
+code --install-extension ms-playwright.playwright
+```
+
+You can also combine them into a single line using the following:
+
+```bash
+code --install-extension dbaeumer.vscode-eslint && code --install-extension esbenp.prettier-vscode && code --install-extension bradlc.vscode-tailwindcss && code --install-extension EditorConfig.EditorConfig && code --install-extension ms-playwright.playwright
+```
+
 ### Common Aliases (add to ~/.zshrc):
 
 ```bash
