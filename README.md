@@ -284,13 +284,13 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension esbenp.prettier-vscode
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension EditorConfig.EditorConfig
-code --install-extension ms-playwright.playwright
+code --install-extension eamodio.gitlens
 ```
 
 You can also combine them into a single line using the following:
 
 ```bash
-code --install-extension dbaeumer.vscode-eslint && code --install-extension esbenp.prettier-vscode && code --install-extension bradlc.vscode-tailwindcss && code --install-extension EditorConfig.EditorConfig && code --install-extension ms-playwright.playwright
+code --install-extension dbaeumer.vscode-eslint && code --install-extension esbenp.prettier-vscode && code --install-extension bradlc.vscode-tailwindcss && code --install-extension EditorConfig.EditorConfig && code --install-extension eamodio.gitlens
 ```
 
 ### Common Aliases (add to ~/.zshrc):
